@@ -1,0 +1,5 @@
+bin
+**/*.js
+apidoc
+public
+config

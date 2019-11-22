@@ -1,0 +1,42 @@
+{
+  "mysql": {
+    "username": "",
+    "password": "",
+    "dialect": "",
+    "host": "",
+    "timezone": "+08:00",
+    "database": "",
+    "define": {
+      "charset": "utf8mb4",
+      "engine": "innodb"
+    },
+    "connectionTimeout":0,
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 20000
+    },
+    "isolationLevel": "",
+    "logging": false
+  },
+  "redis": {
+    "host": "",
+    "port": 6379,
+    "password": ""
+  },
+  "rabbitmq": {
+    "username": "",
+    "password": "",
+    "hostname": "localhost"
+  },
+  "session": {
+    "secret": "T*DJF&%^&45GJE#HHI*BJ90",
+    "key": "auth",
+    "resave": true,
+    "saveUninitialized": true,
+    "cookie": {
+      "domain": null
+    }
+  }
+}

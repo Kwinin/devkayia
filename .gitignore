@@ -1,0 +1,9 @@
+/node_modules
+.idea/
+/config.js
+config/*
+!config/default.json
+
+!public/uploads
+public/uploads/*
+!public/uploads/.gitkeep
